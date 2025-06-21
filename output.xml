@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.9.6 on darwin)" generated="2025-06-21T17:55:35.538690" rpa="false" schemaversion="5">
+<suite id="s1" name="Sample" source="/Users/ahmedgaafar/PycharmProjects/PythonProject1/TestingRebo/tests/sample.robot">
+<test id="s1-t1" name="Click Sign In Link" line="9">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-06-21T17:55:35.902585" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/ahmedgaafar/PycharmProjects/PythonProject1/TestingRebo/browser/traces/temp/bfb70b5c-9ff1-46dc-bc3b-7ff74042e01e"}</msg>
+<msg time="2025-06-21T17:55:36.849819" level="INFO">Starting Browser process /Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js using at 127.0.0.1:53007</msg>
+<msg time="2025-06-21T17:55:39.978298" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/ahmedgaafar/PycharmProjects/PythonProject1/TestingRebo/browser/traces/temp/bfb70b5c-9ff1-46dc-bc3b-7ff74042e01e"}</msg>
+<arg>headless=false</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-06-21T17:55:35.902202" elapsed="4.076460"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-06-21T17:55:48.572865" level="INFO">Successfully initialized new page object and opened url: https://btech.com/en/</msg>
+<msg time="2025-06-21T17:55:48.573024" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>${URL}</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-06-21T17:55:39.978929" elapsed="8.594363"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2025-06-21T17:55:48.597236" level="INFO">Waited for Element with selector a.customer-login-link.gtm-source-track at state visible</msg>
+<arg>${SIGN_IN_SELECTOR}</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2025-06-21T17:55:48.573708" elapsed="0.023645"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-06-21T17:55:48.597899" level="INFO">Clicks the element 'a.customer-login-link.gtm-source-track'.</msg>
+<arg>${SIGN_IN_SELECTOR}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-06-21T17:55:48.597538" elapsed="0.027670"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-21T17:55:51.626177" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-21T17:55:48.625395" elapsed="3.001151"/>
+</kw>
+<kw name="Close Browser" owner="Browser">
+<msg time="2025-06-21T17:55:51.778856" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-21T17:55:51.627191" elapsed="0.151772"/>
+</kw>
+<status status="PASS" start="2025-06-21T17:55:35.901663" elapsed="15.877446"/>
+</test>
+<status status="PASS" start="2025-06-21T17:55:35.539447" elapsed="16.242010"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Sample" id="s1" pass="1" fail="0" skip="0">Sample</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

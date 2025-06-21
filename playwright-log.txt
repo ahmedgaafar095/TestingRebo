@@ -1,0 +1,54 @@
+{"level":30,"time":"2025-06-21T14:55:37.127Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Listening on 127.0.0.1:53007"}
+(node:54009) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-06-21T14:55:38.213Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-06-21T14:55:39.975Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Adding browser to stack: chromium, version: 138.0.7204.15"}
+{"level":30,"time":"2025-06-21T14:55:39.976Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-06-21T14:55:39.976Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-06-21T14:55:39.980Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-06-21T14:55:39.980Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-06-21T14:55:39.986Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Changed active context"}
+{"level":30,"time":"2025-06-21T14:55:40.309Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-06-21T14:55:40.309Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Changed active page"}
+{"level":30,"time":"2025-06-21T14:55:48.570Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-06-21T14:55:48.576Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-06-21T14:55:48.576Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with a.customer-login-link.gtm-source-track in page."}
+{"level":30,"time":"2025-06-21T14:55:48.596Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-06-21T14:55:48.598Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-06-21T14:55:48.598Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Strict mode is enabled, find Locator with a.customer-login-link.gtm-source-track in page."}
+{"level":30,"time":"2025-06-21T14:55:48.624Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method click"}
+{"level":30,"time":"2025-06-21T14:55:51.631Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-06-21T14:55:51.660Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Removed page=aa82864c-f8db-45a4-8cc0-0a7da363a213 from context=1d4abfb1-e9e4-4a6b-ac71-26a808785d3c page stack"}
+{"level":30,"time":"2025-06-21T14:55:51.778Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-21T14:55:51.780Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-21T14:55:51.781Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13122:59)
+    at PlaywrightServer.setTimeout (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/index.js:13370:57)
+    at Object.onReceiveHalfClose (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (/Users/ahmedgaafar/PycharmProjects/PythonProject1/.venv/lib/python3.9/site-packages/Browser/wrapper/node_modules/@grpc/grpc-js/build/src/server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:519:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-06-21T14:55:51.782Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-21T14:55:51.782Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-06-21T14:55:51.795Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-06-21T14:55:51.795Z","pid":54009,"hostname":"Ahmeds-MacBook-Air-2.local","msg":"End of node method closeAllBrowsers"}
